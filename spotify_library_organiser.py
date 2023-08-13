@@ -47,7 +47,7 @@ def fetch_followed_artists():
   limit = 50
   last_artist_id = None
 
-  print("⏳ Fetching saved artists (this can take a while...)")
+  print("⏳ Fetching followed artists (this can take a while...)")
 
   while more_followed_artists == True:
     result = sp.current_user_followed_artists(limit, last_artist_id)
